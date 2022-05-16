@@ -24,17 +24,17 @@ This section is critical, so be careful.
 `airflow db init`
 
 
-5. These change relate to `airflow.cfg`:
-`[webserver] #Section  
-x_frame_enabled = False  
-warn_deployment_exposure = False`  
+5. These change relate to `airflow.cfg`:  
+`[webserver] #Section`    
+`x_frame_enabled = False`      
+`warn_deployment_exposure = False`    
 
 
 
 6. Create a User for airflow:  
 `airflow users create \  
     --username admin \  
-    --firstname Peter \  
-    --lastname Parker \  
+    --firstname name \  
+    --lastname name \  
     --role Admin \  
-    --email spiderman@superhero.org`  
+    --email name@example.info`  
