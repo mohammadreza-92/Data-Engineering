@@ -38,3 +38,6 @@ This section is critical, so be careful.
     --lastname name \  
     --role Admin \  
     --email name@example.info`  
+    
+    
+[Other Options](https://airflow.apache.org/docs/apache-airflow/stable/security/webserver.html)
