@@ -30,8 +30,8 @@ This section is critical, so be careful.
 `export AIRFLOW_HOME=$(pwd)`  
 4. Database Initialization:  
 `airflow db init`
-
-
+5. Create a User for airflow:  
+`airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin`  
 
 References: 
 1. [Medium Link](https://medium.com/abn-amro-developer/data-pipeline-orchestration-on-steroids-apache-airflow-tutorial-part-1-87361905db6d)
